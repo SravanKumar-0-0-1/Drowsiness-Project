@@ -1,0 +1,51 @@
+1. Importing the packages
+2. Exploring the dataset 
+	-  Merge data of NTHU-DDD and YAWDD
+3. Image processing
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+	- Feature Extraction 
+		- Reading the image
+		- Resizing the image
+		- Convert the Color
+		- Appending the image and labels
+		- Conversion to numpy value
+		- Label Encoding 
+	
+4. Building the model 
+    ALexNet
+    ResNet
+    VGG
+    MCNN
+    DenseNet
+    Xception
+    Random Forest
+    Naive Bayes
+    KNN
+    AdaBoost
+    Voting Classifier
+    Stacking Classifier
+5. Training the model
+6. Building the model 
+
+Flask Framework
+----------------
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Upload an image for analysis
+10. The given input is preprocessed 
+11. The trained model is used for predicting the result
+12. Final Outcome is display 
+
+Dataset used : https://www.kaggle.com/datasets/banudeep/nthuddd2  
+
+Extension
+----------
+
+In the base paper, the author mentioned to use NTHU-DDD and YAWDD dataset for analysis with different models like ALexNet, ResNet, VGG, MCNN, Random Forest, Naive BAyes, KNN and AdaBoost, in which MCNN got 98% of accuracy 
+However, we can further enhance the performance by exploring other techniques such as DenseNet and Xception along with that ensemble of ML model like Voting Classifier and Stacking Classifier  for analysis the dataset, in which may get 99% of accuracy or above,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
